@@ -1,4 +1,3 @@
-<view>
-	首页
-	<text class="iconfont icon-shoucang"></text>
-</view> 
+<view class="search">
+	<SearchInput></SearchInput>
+</view>

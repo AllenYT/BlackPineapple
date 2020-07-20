@@ -17,10 +17,45 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "YT",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "黑凤梨",
+    "navigationBarTextStyle": "white"
   },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#333333",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home-fill.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "icons/all.png",
+        "selectedIconPath": "icons/all-fill.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "icons/cart.png",
+        "selectedIconPath": "icons/cart-fill.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icons/account.png",
+        "selectedIconPath": "icons/account-fill.png"
+      }
+    ]
+  },
+  
+    
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
